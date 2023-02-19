@@ -1,6 +1,7 @@
 import csv
-with open('dep.csv')as f:
+with open("desp.csv")as f:
     d=csv.DictReader(f)
+    print("Subject Group")
     for i in d:
-        print(i)
+        print(i['Period'])
 
